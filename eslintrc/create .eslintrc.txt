@@ -1,6 +1,8 @@
-Create a .eslintrc file in the project root and enter the below contents:
-
 {
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
   "extends": [
     "airbnb",
     "airbnb/hooks",
@@ -8,10 +10,6 @@ Create a .eslintrc file in the project root and enter the below contents:
     "prettier",
     "plugin:jsx-a11y/recommended"
   ],
-  "parser": "babel-eslint",
-  "parserOptions": {
-    "ecmaVersion": 8
-  },
   "env": {
     "browser": true,
     "node": true,
@@ -33,6 +31,22 @@ Create a .eslintrc file in the project root and enter the below contents:
         "extensions": [".js", ".jsx"]
       }
     ],
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "parser": "flow",
+        "printWidth": 100,
+        "tabWidth": 4,
+        "semi": true,
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "plugins": ["prettier", "react", "react-hooks"]
+}
+
     "prettier/prettier": [
       "error",
       {
