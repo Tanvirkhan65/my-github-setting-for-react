@@ -3,7 +3,9 @@
 		"browser": true,
 		"es2021": true
 	},
-	"extends": ["plugin:react/recommended", "airbnb"],
+	"extends": ["plugin:react/recommended", "airbnb","airbnb/hooks",
+    "eslint:recommended",
+    "plugin:jsx-a11y/recommended"],
 	"parserOptions": {
 		"ecmaFeatures": {
 			"jsx": true
