@@ -17,6 +17,8 @@
 		"jest": true
 	},
 	"rules": {
+        "arrow-body-style": "off",
+        "react/function-component-definition":"off",
 		"import/no-named-as-default-member": 0,
 		"import/no-named-as-default": 0,
 		"react/react-in-jsx-scope": 0,
@@ -47,3 +49,4 @@
 	},
 	"plugins": ["prettier", "react", "react-hooks"]
 }
+
