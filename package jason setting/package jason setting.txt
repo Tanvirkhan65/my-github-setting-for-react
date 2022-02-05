@@ -1,3 +1,9 @@
 scripts: {
     "lint": "npm i -D eslint prettier eslint-plugin-prettier eslint-config-prettier eslint-plugin-node eslint-config-node"
 }
+"babelMacros": {
+    "twin": {
+        "config": "./src/tailwind.config.js",
+        "preset": "styled-components"
+    }
+},
