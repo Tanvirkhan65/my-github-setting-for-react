@@ -15,13 +15,13 @@
 	},
 	"plugins": ["react"],
 	"rules": {
+		"react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+		"react/react-in-jsx-scope": "off",
 		"react/function-component-definition": "off",
-		"react/react-in-jsx-scope": 0,
-		"indent": ["error", 4],
-                "linebreak-style": 0,
-		"react/jsx-indent": ["error", 4],
-		"react/jsx-indent-props": ["error", 4],
+		"indent": ["error", 2],
+		"linebreak-style": 0,
+		"react/jsx-indent": ["error", 2],
+		"react/jsx-indent-props": ["error", 2],
 		"no-console": "off"
-		
 	}
 }
