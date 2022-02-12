@@ -1,1 +1,1 @@
-npx install-peerdeps --dev eslint-config-airbnb
+yarn add -D prettier eslint-config-prettier eslint-plugin-prettier
