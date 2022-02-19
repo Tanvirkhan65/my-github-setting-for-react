@@ -17,6 +17,7 @@
 	},
 	"rules": {
         "arrow-body-style": "off",
+	"default-param-last":"off",
         "react/function-component-definition":"off",
 		"import/no-named-as-default-member": 0,
 		"import/no-named-as-default": 0,
