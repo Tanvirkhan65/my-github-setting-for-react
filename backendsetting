@@ -7,7 +7,7 @@ yarn add -D eslint-config-prettier eslint-plugin-prettier
 {
   "extends": ["prettier", "airbnb-base"],
   "parserOptions": {
-    "ecmaVersion": 12
+    "ecmaVersion": 13
   },
   "env": {
     "commonjs": true,
